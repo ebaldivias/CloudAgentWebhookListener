@@ -1,0 +1,1119 @@
+ /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+
+  /* Sections
+     ========================================================================== */
+
+  /**
+   * Remove the margin in all browsers.
+   */
+
+  body {
+    margin: 0;
+  }
+
+  /**
+   * Render the `main` element consistently in IE.
+   */
+
+  main {
+    display: block;
+  }
+
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+  h1 {
+    font-size: 2em;
+    /*margin: 0.67em 0;*/
+    margin: 0;
+  }
+
+  /* Grouping content
+     ========================================================================== */
+
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+
+  /* Text-level semantics
+     ========================================================================== */
+
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+
+  a {
+    background-color: transparent;
+  }
+
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+  b,
+  strong {
+    font-weight: bolder;
+  }
+
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+
+  /**
+   * Add the correct font size in all browsers.
+   */
+
+  small {
+    font-size: 80%;
+  }
+
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+
+  sub {
+    bottom: -0.25em;
+  }
+
+  sup {
+    top: -0.5em;
+  }
+
+  /* Embedded content
+     ========================================================================== */
+
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+
+  img {
+    border-style: none;
+  }
+
+  /* Forms
+     ========================================================================== */
+
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+
+  /**
+   * Correct the padding in Firefox.
+   */
+
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+  progress {
+    vertical-align: baseline;
+  }
+
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+  textarea {
+    overflow: auto;
+  }
+
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+
+  /* Interactive
+     ========================================================================== */
+
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+  details {
+    display: block;
+  }
+
+  /*
+   * Add the correct display in all browsers.
+   */
+
+  summary {
+    display: list-item;
+  }
+
+  /* Misc
+     ========================================================================== */
+
+  /**
+   * Add the correct display in IE 10+.
+   */
+
+  template {
+    display: none;
+  }
+
+  /**
+   * Add the correct display in IE 10.
+   */
+
+  [hidden] {
+    display: none;
+  }
+
+
+
+ @font-face{
+   font-family: 'D Sari Bold';
+    
+   src: url("#{resource['fonts/dsaribold/DSari_Boldwebfont.eot']}") format("eot"),
+   src: url("#{resource['fonts/dsaribold/DSari_Boldwebfont.woff2']}") format("woff2"),
+	   url("#{resource['fonts/dsaribold/DSari_Boldwebfont.woff']}") format("woff"),
+	   url("#{resource['fonts/dsaribold/DSari_Boldwebfont.ttf']}") format("truetype"),
+	   url("#{resource['fonts/dsaribold/DSari_Boldwebfont.svg']}") format("svg");
+	    font-weight: normal;
+	    font-style: normal;
+ }
+
+
+ @font-face{
+   font-family: 'ProximaNovaBold';
+   src: url("/LoginV4/javax.faces.resource/fonts/proximanova/proximanova-bold.eot.xhtml") format("eot"), 
+   url("/LoginV4/javax.faces.resource/fonts/proximanova/proximanova-bold.woff2.xhtml") format('woff2'), 
+	url("/LoginV4/javax.faces.resource/fonts/proximanova/proximanova-bold.woff.xhtml") format('woff'), 
+	url("/LoginV4/javax.faces.resource/fonts/proximanova/proximanova-bold.ttf.xhtml") format('truetype'); 
+ }
+
+
+  @font-face{
+    font-family: 'ProximaNovaRegular';
+    src: url("/LoginV4/javax.faces.resource/fonts/proximanova/proximanova-regular.eot.xhtml") format("eot"), 
+    url("/LoginV4/javax.faces.resource/fonts/proximanova/proximanova-regular.woff2.xhtml") format('woff2'), 
+	url("/LoginV4/javax.faces.resource/fonts/proximanova/proximanova-regular.woff.xhtml") format('woff'), 
+	url("#{resource['fonts/proximanova/proximanova-regulaar.ttf']}") format('truetype'); 
+  }
+
+
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Universal Header */
+
+  #universalHeader{
+    height: 50px;
+  }
+
+  #nygov-universal-navigation{
+    display: none;
+  }
+
+  #unavLogo{
+    margin: .4rem 0 0 3rem;
+  }
+
+   /* Global Header */
+
+  #globalHeader{
+    min-height: 60px;
+    list-style-type: none;
+    background-color:#002d72;
+    color: white !important;
+    width: 100%;
+    font-family: "ProximaNovaRegular", Arial, sans-serif;
+    display: inline-block;
+  }
+
+  #globalHeader h1{
+    display: flex;
+    align-content: center;
+    min-height: 60px;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+    margin-left: -1px; 
+  }
+
+  #globalFooter h2{
+    font-size: 1.4rem;
+  }
+
+  .globalHeaderFooterHeadingContainer{
+    display: inline-block;
+    padding: 0 0 0 3rem;
+  }
+  .globalFooterHeadingContainer{
+    display: inline-block;
+    padding: 1.3rem 0 0 3rem;
+  }
+
+  .headerFooterHeading{
+    font-family: 'D Sari Bold', Arial, sans-serif;
+    margin-top: 0;
+  }
+
+
+  #agencyName{
+    font-family: 'D Sari Bold', Arial, sans-serif;
+    /*margin: -.6rem 0 .3rem 0;
+    font-size: .8rem;*/
+    margin: 0;
+    font-size: .9rem;
+  }
+
+  #agencyDescription{
+    margin: 0;
+  }
+  
+  #globalFooter .footerNav li{
+    font-family: "ProximaNovaRegular", Arial, sans-serif;
+    display: inline;
+    padding: 2rem;
+    text-align: left;
+  }
+
+  #globalFooter .footerNav a {
+    color: #101820;
+    text-decoration: none;
+  }
+  
+  #globalFooter .footerNav a:hover {
+    text-decoration: underline;
+  }
+
+
+  #globalFooter {
+    min-height: 60px;
+    list-style-type:none;
+    background-color: #bcc1cf;
+    overflow:hidden;
+    width: 100%;
+    font-family: 'ProximaNovaRegular', Arial, sans-serif;
+    display:block;
+  }
+
+
+/* 
+  .headingContainer h2{
+    display:inline;
+    font-size: 20px;
+  } */
+
+  .footerNav {
+    display:inline-block;
+    text-align: center;
+    padding: 6px 16px;
+  }
+
+  .footerNavContainer {
+    display: inline-block;
+  }
+
+  #nygov-universal-footer {
+    position: absolute;
+    width: 100%;
+}
+
+/*IMAGE BACKGROUND*/
+#main {
+  background-color: rgb(221, 227, 238);
+  padding: 0rem 0 1rem 0px;
+  
+
+}
+
+
+/*Sign In Box*/
+
+#signInBox {
+  width: 385px;
+  background-color: #ffffff;
+  margin: 1rem auto;
+  /*padding: 1.2rem 2rem 1rem 2rem;*/
+  padding: 2rem 2.5rem 1.5rem 2.5rem;
+  font-family: 'ProximaNovaRegular',Arial,sans-serif;
+  color: #101820;
+ }
+
+ .signInHeading {
+   text-align: center;
+    margin: 0px auto 20px 0px;
+  }
+
+ #IDvalueProp {
+  margin: 0;
+ }
+
+ #govInstructions {
+   font-style: italic;
+   padding: .5rem 0 .1rem 0;
+ }
+
+.input {
+  display: block;
+  width: auto;
+  margin: 15px 0 0 0;
+  /* padding: 0 3px 0 0; */
+}
+
+.inputLabel {
+  font-size: 1rem;
+  display: inline-block;
+  padding-bottom: 0.2rem;  
+}
+
+.inputBox {
+  width: 100%;
+  height: 40px;
+  padding: 0px .5rem;
+  border: 1px solid #8c8c8c;
+  font-size: 1rem;
+}
+
+#IDvalueProp {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+.buttonLink {
+  text-decoration: none;
+}
+
+
+#signinButton {
+  background-color: #002d72;
+  height: 64px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.newButton
+{
+  background-color: #002d72;
+  background: #002d72;
+  height: 64px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  font-family: "ProximaNovaRegular", Arial, sans-serif;
+  margin: 10px 0;
+  border: none;
+}
+
+.ui-widget-content
+{
+background: #DDE3EE;
+border: 0px;
+}
+
+.signInButtonText{
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.helpLinkList{
+  list-style-type: none;
+  padding: 0;
+}
+
+.helpLinks{
+  font-size: 16px;
+  margin: 1.5rem 0;
+
+}
+
+.helpLinks a{
+  color: #0077c8;
+  text-decoration: underline;
+}
+
+#employeeSSO{
+  border-top: 1px #767676 solid;
+  padding: 1.5rem 0 0 0;
+}
+
+.employeeSSOLink{
+  font-size: 1.3rem;
+  color: #0077c8;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.employeeSSOHelpText{
+  font-size: .75rem;
+  font-style: italic;
+}
+
+#copyright{
+  text-align: center;
+  color: #3c3c3c;
+  font-size: .7rem;
+  margin-top: 1.8rem;
+}
+
+.leftRowFooterNav{
+display: inline;
+}
+
+.rightRowFooterNav{
+display: inline;
+}
+
+.middleRowFooterNav{
+  display: inline;
+}
+
+ol {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  }
+
+ul.helpLinkList li 
+{ 
+	margin: 1.2rem 0; padding: 0; 
+}
+
+/* Large Screens --------------*/
+@media only screen  and (min-device-width : 1600px) {
+  #globalHeader{
+     /*padding: 0 0 0 10rem;*/
+  }
+  #globalFooter{
+    /*padding: 0 0 0 10rem;*/
+  }
+
+  #unavLogo {
+    /*padding: 0 0 0 10rem;*/
+ }
+
+
+}
+
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 1024px) {
+
+
+  /* Styles */
+
+  .footerNav li{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+  }
+
+
+  .leftRowFooterNav{
+    display: inline-flex;
+    float: left;
+    width: 100%;
+    text-align: left;
+    }
+
+  .rightRowFooterNav{
+    display: inline-flex;
+    float: left;
+    width: 100%;
+    text-align: left;
+    }
+
+  .middleRowFooterNav{
+    display: inline-flex;
+    float: left;
+    width: 100%;
+    text-align: left;
+    }
+
+  #globalFooter .footerNav li {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+  }
+
+  .footerNav {
+    padding: 0;
+    margin-top: 0;
+}
+
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+  and (max-width: 540px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+
+
+/* @media only screen and (max-device-width : 480px) { */
+
+  /* Styles */
+
+#unavLogo {
+  margin: .4rem 0 0 1rem;
+}
+
+.headerNav{
+  display: none;
+}
+
+#globalHeader {
+  min-height: 48px;
+  padding: 0;
+  width: 100%;
+}
+
+#globalHeader h1 {
+  margin: -2px 0 0 -1px; 
+}
+
+.headingContainer h1 {
+  padding-left: 0;
+  font-family:'D Sari Bold',Arial,sans-serif;
+}
+
+.globalHeaderFooterHeadingContainer {
+  display: inline-block;
+  padding: 1rem 0 0 1.2rem;
+}
+.globalFooterHeadingContainer {
+  display: inline-block;
+  padding: 1rem 0 0 1.2rem;
+}
+.headingContainer h2 {
+  padding-left: 0px;
+  font-family:'D Sari Bold',Arial,sans-serif;
+}
+
+#govInstructions {
+  padding: 0 0 0 1rem;
+}
+
+
+#globalFooter .footerNav li {
+  padding: 0 1.3rem !important;
+  font-size: .875rem;
+}
+
+
+#main{
+  padding: 0;
+  background-image: none !important;
+}
+
+
+#signInBox {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.signInHeading {
+  margin: 2rem auto
+}
+
+.inputContainer{
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding-top: 15px; 
+}
+
+.inputBox {
+  width: 90%;
+}
+
+.input{
+  padding: 0 1rem;
+}
+
+.helpLinks{
+  margin: 1.5rem;
+}
+
+
+.forgot {
+  padding: 0 0 0 1rem;
+}
+
+.signInButtonContainer{
+  position: relative;
+}
+
+#loginform\:signinButton{
+  width: 92%;
+  margin: 0 1rem;
+}
+
+#employeeSSO {
+  border-top: 1px #767676 solid;
+  margin: 1rem 0 1rem 1rem;
+  width: 90%;
+}
+
+#globalFooter {
+  margin: 2rem 0 0 0;
+}
+
+
+.footerNav {
+    margin-top: -.6rem;
+    width: 94%;
+  }
+
+
+
+.footerNav li{
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+
+
+.leftRowFooterNav{
+  display: inline-flex;
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom:4%;
+  }
+
+.rightRowFooterNav{
+  display: inline-flex;
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding: 2% 0;
+  }
+
+.middleRowFooterNav{
+  display: inline-flex;
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 4%;
+  }
+
+
+}
+
+@media only screen 
+  and (max-width: 760px) {
+    #globalFooter {
+      min-height: 24px;
+      padding: 0 0 1rem 0;
+      width: 100%;
+    }
+
+
+    .desktopHeaderNavItems{
+        display: inline-block;
+      }
+
+    .footerNav {
+        margin-top: -10px;
+        width: 94%;
+        margin-bottom: 0;
+      }
+
+
+
+    .footerNav li{
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      display: inline-block;
+      text-align: left;
+    }
+
+
+    .leftRowFooterNav{
+      display: inline-flex;
+      float: left;
+      width: 100%;
+      text-align: left;
+      padding-bottom: 2%;
+      }
+
+
+    .rightRowFooterNav{
+      display: inline-flex;
+      float: left;
+      width: 100%;
+      text-align: left;
+      padding-bottom: 2%;
+      }
+
+    .middleRowFooterNav{
+      display: inline-flex;
+      float: left;
+      width: 100%;
+      text-align: left;
+      padding-top: 2%;
+      }
+
+} 
+
+@media only screen 
+  and (max-width: 280px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #globalFooter {
+    margin: 64px 0 0 0;
+  }
+
+  } 
+
+
+  /* Agency Priimary Colors */
+
+  .transportation{
+    background-color: #0B5584 !important;
+  }
+
+  .regional{
+    background-color: #402217 !important;
+  }
+
+  body.business #globalHeader, body.business #loginform\:signinButton {
+    background-color: #09464C !important;
+  }
+
+  .administration{
+  background-color: #B74215 !important;
+  }
+
+  .elected{
+    background-color: #0E5E9E !important;
+  }
+
+  .recreation{
+    background-color: #233E2A !important;
+  }
+
+  .health{
+    background-color: #43285D !important;
+  }
+
+  .education{
+    background-color: #9D8E1D !important;
+  }
+
+  .safety{
+    background-color: #4B6576 !important;
+  }
+  
+  
+  
+  /* Added as per Manolo's suggestion */
+  @media only screen and (max-width: 540px) and (-webkit-min-device-pixel-ratio: 1) {
+       .globalHeaderFooterHeadingContainer {
+              display: inline-block;
+              padding: 0 0 0 1.2rem;
+       }
+
+       #globalHeader h1 {
+              font-size: 1.2em;
+       }
+
+       #main {
+              background-color: #FFF;
+              padding: 0;
+       }
+
+       .signInHeading {
+              margin: 0.5rem auto 0.5rem 10%;
+              text-align: left;
+       }
+       
+       .signInHeading img.logo {
+              margin-left: 10%;
+       }
+
+       .signInHeading p {
+              text-align: left !important;
+       }      
+
+       .inputContainer {
+              margin: 0.5rem 0 1.0rem 0;
+              padding-top: 15px;
+       }
+
+       .input {
+              margin: 0 0 0 10%;
+              padding: 0;
+              width: 304px;
+       }      
+
+       .inputBox {
+              width: 100%;
+       }
+
+       #loginform\:signinButton {
+              width: 304px;
+              margin: 0 10%;
+       }
+
+       .helpLinkList {
+              padding: 0 10%;
+       }
+       
+       #globalFooter {
+              margin: 1rem 0px 0px;
+       }
+
+       body .ui-message.ui-message-error, body .ui-message.ui-message-fatal {
+              width: 304px !important;
+             margin: 0.25em 10% 0 10% !important;
+              padding-top: 0 !important; /* add this */
+
+       }
+
+       label.inputLabel.captchaLabel {
+              margin-left: 10%;
+       }
+
+       div#loginform\:captcha {
+              margin-left: 10%;
+       }
+}
+  
+.ui-message-info, .ui-message-error, .ui-message-warn, .ui-message-fatal {
+    border: 1px solid;
+    margin: 3px 5px 0 0;
+    padding: 2px 5px;
+}
+
+body .ui-message.ui-message-error,
+body .ui-message.ui-message-fatal {
+    background: none;
+    border: none;
+    border-width: 0 0 0 3px;
+    color: #FF0011;
+    border-radius: 0;
+    padding: 0.25em 0.5em 0.4em 0; 
+    margin: 0;
+    font-weight: 600;
+}
+ 
+body .ui-inputfield.ui-state-error {
+    border-color: #FF0011;
+}
+ 
+body .ui-message.ui-message-error .ui-message-error-icon:before,
+body .ui-message.ui-message-fatal .ui-message-error-icon:before {
+    content: "⮿"; /* this should work too >> content: "\2BBF"; */
+    color: #FF0011;
+    font-weight: 600;
+    font-size: 1em; /* add this */
+}
+
+
+  
