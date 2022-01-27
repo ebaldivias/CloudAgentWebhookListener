@@ -19,9 +19,11 @@ public class AcaPyController {
         logger.debug("{} /getConnectionId endpoint accessed", Thread.currentThread().getStackTrace()[2].getMethodName());
 
         Boolean retrievedConnectionId = false;
-        if(request.getConnectionId() != null && !StringUtils.isEmpty(request.getConnectionId())) {
+        if(request.getConnection_id() != null && !StringUtils.isEmpty(request.getConnection_id())) {
             retrievedConnectionId = true;
-            System.out.println("connection_id = " + request.getConnectionId());
+            System.out.println("connection_id = " + request.getConnection_id());
+        }else{
+            System.out.println("connection_id = blank or null" );
         }
          return retrievedConnectionId;
     }
